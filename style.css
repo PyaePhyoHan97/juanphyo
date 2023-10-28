@@ -1,0 +1,34 @@
+.calculator {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 24px;
+  }
+  
+  .buttons button {
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #eee;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  .buttons button:hover {
+    background-color: #ddd;
+  }
+  
